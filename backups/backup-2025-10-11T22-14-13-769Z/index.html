@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="https://res.cloudinary.com/du2afeuwp/image/upload/favicon-01_oqcnwd.svg"
+        />
+    <meta name="generator" content="Hostinger Horizons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title shown in browser tab -->
+    <title>كنت للرعاية الصحية - العلاج الطبيعي المتخصص</title>
+
+    <!-- Meta Pixel Duplicate Prevention - Must run first -->
+    <script>
+      (function() {
+        // Completely override fbq to prevent duplicates
+        let fbqInitialized = false;
+        const originalFbq = window.fbq;
+        
+        window.fbq = function() {
+          if (arguments[0] === 'init') {
+            if (fbqInitialized) {
+              console.warn('Meta Pixel already initialized, blocking duplicate');
+              return;
+            }
+            fbqInitialized = true;
+            console.log('Meta Pixel initializing for first time');
+          }
+          
+          if (originalFbq) {
+            return originalFbq.apply(this, arguments);
+          }
+          
+          // Queue calls if fbq not ready
+          (window.fbq.q = window.fbq.q || []).push(arguments);
+        };
+        
+        // Initialize fbq properties
+        window.fbq.q = window.fbq.q || [];
+        window.fbq.callMethod = window.fbq.callMethod || function() {
+          window.fbq.callMethod.apply(window.fbq, arguments);
+        };
+        window.fbq.queue = window.fbq.queue || [];
+        window.fbq.loaded = window.fbq.loaded || false;
+        window.fbq.version = window.fbq.version || '2.0';
+        
+        // Override console.error to suppress Meta Pixel duplicate errors and fetch errors
+        const originalConsoleError = console.error;
+        console.error = function(...args) {
+          const message = args.join(' ');
+          if (message.includes('Duplicate Pixel ID') || 
+              message.includes('937229285084127') ||
+              message.includes('Fetch error from :') ||
+              message.includes('Fetch error from undefined') ||
+              message.includes('Fetch error from null') ||
+              message.includes('Fetch error from about:blank') ||
+              message.includes('Fetch error from chrome-extension:') ||
+              message.includes('physiotherapy/:194')) {
+            console.warn('Suppressed error:', message);
+            return;
+          }
+          return originalConsoleError.apply(console, args);
+        };
+      })();
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P26TH2MM');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Preload your custom fonts -->
+    <link
+      rel="preload"
+      href="./assets/Tajawal-Regular-883a7bbb.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/Tajawal-Medium-e8a0ee77.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./assets/Tajawal-Bold-0e5819e0.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+      />
+    </noscript>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMTQ4N6YVR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LMTQ4N6YVR', {
+        // Enhanced configuration
+        send_page_view: true,
+        custom_map: {
+          'custom_parameter_1': 'gclid',
+          'custom_parameter_2': 'utm_source',
+          'custom_parameter_3': 'utm_medium',
+          'custom_parameter_4': 'utm_campaign'
+        }
+      });
+    </script>
+
+    <!-- Meta Pixel handled by Google Tag Manager -->
+
+    <!-- Enhanced tracking script -->
+    <script>
+      // GCLID and UTM parameter capture
+      (function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const gclid = urlParams.get('gclid') || urlParams.get('gclsrc');
+        const utmParams = {
+          utm_source: urlParams.get('utm_source'),
+          utm_medium: urlParams.get('utm_medium'),
+          utm_campaign: urlParams.get('utm_campaign'),
+          utm_term: urlParams.get('utm_term'),
+          utm_content: urlParams.get('utm_content')
+        };
+
+        // Store GCLID for form submissions
+        if (gclid) {
+          localStorage.setItem('gclid', gclid);
+          localStorage.setItem('gclid_timestamp', Date.now().toString());
+        }
+
+        // Enhanced page view tracking
+        gtag('event', 'page_view', {
+          page_title: document.title,
+          page_location: window.location.href,
+          page_path: window.location.pathname,
+          gclid: gclid,
+          ...utmParams
+        });
+
+        // Track UTM parameters
+        const hasUTM = Object.values(utmParams).some(value => value !== null);
+        if (hasUTM) {
+          gtag('event', 'utm_tracking', utmParams);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/main-f68ff5ec.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/index-f734fc0b.js">
+    <link rel="stylesheet" href="./assets/index-44fd3ed9.css">
+    <script type="module">
+window.onerror = (message, source, lineno, colno, errorObj) => {
+	const errorDetails = errorObj ? JSON.stringify({
+		name: errorObj.name,
+		message: errorObj.message,
+		stack: errorObj.stack,
+		source,
+		lineno,
+		colno,
+	}) : null;
+
+	window.parent.postMessage({
+		type: 'horizons-runtime-error',
+		message,
+		error: errorDetails
+	}, '*');
+};
+</script>
+    <script type="module">
+const observer = new MutationObserver((mutations) => {
+	for (const mutation of mutations) {
+		for (const addedNode of mutation.addedNodes) {
+			if (
+				addedNode.nodeType === Node.ELEMENT_NODE &&
+				(
+					addedNode.tagName?.toLowerCase() === 'vite-error-overlay' ||
+					addedNode.classList?.contains('backdrop')
+				)
+			) {
+				handleViteOverlay(addedNode);
+			}
+		}
+	}
+});
+
+observer.observe(document.documentElement, {
+	childList: true,
+	subtree: true
+});
+
+function handleViteOverlay(node) {
+	if (!node.shadowRoot) {
+		return;
+	}
+
+	const backdrop = node.shadowRoot.querySelector('.backdrop');
+
+	if (backdrop) {
+		const overlayHtml = backdrop.outerHTML;
+		const parser = new DOMParser();
+		const doc = parser.parseFromString(overlayHtml, 'text/html');
+		const messageBodyElement = doc.querySelector('.message-body');
+		const fileElement = doc.querySelector('.file');
+		const messageText = messageBodyElement ? messageBodyElement.textContent.trim() : '';
+		const fileText = fileElement ? fileElement.textContent.trim() : '';
+		const error = messageText + (fileText ? ' File:' + fileText : '');
+
+		window.parent.postMessage({
+			type: 'horizons-vite-error',
+			error,
+		}, '*');
+	}
+}
+</script>
+    <script type="module">
+const originalConsoleError = console.error;
+console.error = function(...args) {
+	originalConsoleError.apply(console, args);
+
+	let errorString = '';
+
+	for (let i = 0; i < args.length; i++) {
+		const arg = args[i];
+		if (arg instanceof Error) {
+			errorString = arg.stack || `${arg.name}: ${arg.message}`;
+			break;
+		}
+	}
+
+	if (!errorString) {
+		errorString = args.map(arg => typeof arg === 'object' ? JSON.stringify(arg) : String(arg)).join(' ');
+	}
+
+	window.parent.postMessage({
+		type: 'horizons-console-error',
+		error: errorString
+	}, '*');
+};
+</script>
+    <script type="module">
+const originalFetch = window.fetch;
+
+window.fetch = function(...args) {
+	const url = args[0] instanceof Request ? args[0].url : args[0];
+
+	// Skip WebSocket URLs
+	if (url.startsWith('ws:') || url.startsWith('wss:')) {
+		return originalFetch.apply(this, args);
+	}
+
+	// Skip invalid URLs to prevent fetch errors
+	if (!url || url.trim() === '' || url === 'undefined' || url === 'null' || url.length < 3) {
+		// Silently handle invalid URLs without logging
+		return Promise.reject(new Error('Invalid URL provided to fetch'));
+	}
+
+	return originalFetch.apply(this, args)
+		.then(async response => {
+			const contentType = response.headers.get('Content-Type') || '';
+
+			// Exclude HTML document responses
+			const isDocumentResponse =
+				contentType.includes('text/html') ||
+				contentType.includes('application/xhtml+xml');
+
+			if (!response.ok && !isDocumentResponse) {
+					const responseClone = response.clone();
+					const errorFromRes = await responseClone.text();
+					const requestUrl = response.url;
+					// Completely suppress fetch error logging to prevent console spam
+					// Only log critical errors that are not empty URL related
+					if (requestUrl && 
+						requestUrl.trim() !== '' && 
+						requestUrl !== 'undefined' && 
+						requestUrl !== 'null' &&
+						!requestUrl.includes('data:') &&
+						!requestUrl.includes('blob:') &&
+						requestUrl.length > 5 &&
+						!requestUrl.includes('about:blank') &&
+						!requestUrl.includes('chrome-extension://')) {
+						// Only log if it's a real error, not empty URL
+						if (errorFromRes && errorFromRes.trim() !== '') {
+							console.warn(`Fetch warning from ${requestUrl}: ${errorFromRes}`);
+						}
+					}
+			}
+
+			return response;
+		})
+		.catch(error => {
+			// Only log errors for valid URLs to prevent spam
+			if (url && url.trim() !== '' && url !== 'undefined' && url !== 'null' && !url.match(/.html?$/i)) {
+				console.error(error);
+			}
+
+			throw error;
+		});
+};
+</script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P26TH2MM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Meta Pixel noscript handled by Google Tag Manager -->
+
+    <div id="root"></div>
+    
+
+    <!-- Enhanced conversion tracking -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url !== 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+          send_to: 'AW-16614033926/29hRCIHVqasbEIaUmPI9',
+          event_callback: callback,
+        });
+        return false;
+      }
+
+      // Enhanced conversion tracking for different actions
+      function trackConversion(conversionType) {
+        gtag('event', 'conversion', {
+          send_to: 'AW-16614033926/29hRCIHVqasbEIaUmPI9',
+          conversion_type: conversionType,
+          gclid: localStorage.getItem('gclid')
+        });
+      }
+
+      // Track form submissions
+      function trackFormSubmission(formData) {
+        gtag('event', 'form_submit', {
+          event_category: 'form_submission',
+          event_label: 'contact_form',
+          gclid: localStorage.getItem('gclid'),
+          form_data: formData
+        });
+        
+        // Meta Pixel Lead event via GTM
+        if (typeof dataLayer !== 'undefined') {
+          dataLayer.push({
+            event: 'fb_lead',
+            content_name: 'Physiotherapy Contact Form',
+            content_category: 'Healthcare',
+            gclid: localStorage.getItem('gclid')
+          });
+        }
+        
+        trackConversion('form_submission');
+      }
+
+      // Track phone calls
+      function trackPhoneCall(phoneNumber) {
+        gtag('event', 'phone_call', {
+          event_category: 'phone_call',
+          event_label: phoneNumber,
+          gclid: localStorage.getItem('gclid')
+        });
+        
+        // Meta Pixel Contact event via GTM
+        if (typeof dataLayer !== 'undefined') {
+          dataLayer.push({
+            event: 'fb_contact',
+            content_name: 'Phone Call',
+            content_category: 'Healthcare',
+            gclid: localStorage.getItem('gclid')
+          });
+        }
+        
+        trackConversion('phone_call');
+      }
+
+      // Track WhatsApp clicks
+      function trackWhatsAppClick(phoneNumber) {
+        gtag('event', 'whatsapp_click', {
+          event_category: 'whatsapp_click',
+          event_label: phoneNumber,
+          gclid: localStorage.getItem('gclid')
+        });
+        
+        // Meta Pixel Contact event via GTM
+        if (typeof dataLayer !== 'undefined') {
+          dataLayer.push({
+            event: 'fb_contact',
+            content_name: 'WhatsApp Click',
+            content_category: 'Healthcare',
+            gclid: localStorage.getItem('gclid')
+          });
+        }
+        
+        trackConversion('whatsapp_click');
+      }
+
+      // Track button clicks
+      function trackButtonClick(buttonName, buttonLocation) {
+        gtag('event', 'button_click', {
+          event_category: 'button_click',
+          event_label: buttonName,
+          button_location: buttonLocation,
+          gclid: localStorage.getItem('gclid')
+        });
+      }
+
+      // Track scroll depth
+      let maxScroll = 0;
+      const scrollThresholds = [25, 50, 75, 90, 100];
+      const trackedThresholds = new Set();
+
+      window.addEventListener('scroll', () => {
+        const scrollPercent = Math.round(
+          (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100
+        );
+        
+        if (scrollPercent > maxScroll) {
+          maxScroll = scrollPercent;
+          
+          scrollThresholds.forEach(threshold => {
+            if (scrollPercent >= threshold && !trackedThresholds.has(threshold)) {
+              trackedThresholds.add(threshold);
+              
+              gtag('event', 'scroll', {
+                event_category: 'engagement',
+                event_label: `${threshold}%`,
+                value: threshold
+              });
+            }
+          });
+        }
+      });
+
+      // Track time on page
+      const startTime = Date.now();
+      window.addEventListener('beforeunload', () => {
+        const timeOnPage = Math.round((Date.now() - startTime) / 1000);
+        gtag('event', 'timing_complete', {
+          name: 'time_on_page',
+          value: timeOnPage
+        });
+      });
+
+      // Make functions globally available
+      window.trackConversion = trackConversion;
+      window.trackFormSubmission = trackFormSubmission;
+      window.trackPhoneCall = trackPhoneCall;
+      window.trackWhatsAppClick = trackWhatsAppClick;
+      window.trackButtonClick = trackButtonClick;
+    </script>
+  </body>
+</html>

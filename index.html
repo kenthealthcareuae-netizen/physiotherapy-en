@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="https://res.cloudinary.com/du2afeuwp/image/upload/favicon-01_oqcnwd.svg"
+        />
+    <meta name="generator" content="Hostinger Horizons" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page title shown in browser tab -->
+    <title>Kent Healthcare - Specialized Physiotherapy Services</title>
+
+    <!-- Meta Pixel Duplicate Prevention - Must run first -->
+    <script>
+      (function() {
+        // Completely override fbq to prevent duplicates
+        let fbqInitialized = false;
+        const originalFbq = window.fbq;
+        
+        window.fbq = function() {
+          if (arguments[0] === 'init') {
+            if (fbqInitialized) {
+              console.warn('Meta Pixel already initialized, blocking duplicate');
+              return;
+            }
+            fbqInitialized = true;
+            console.log('Meta Pixel initializing for first time');
+          }
+          
+          if (originalFbq) {
+            return originalFbq.apply(this, arguments);
+          }
+          
+          // Queue calls if fbq not ready
+          (window.fbq.q = window.fbq.q || []).push(arguments);
+        };
+        
+        // Initialize fbq properties
+        window.fbq.q = window.fbq.q || [];
+        window.fbq.callMethod = window.fbq.callMethod || function() {
+          window.fbq.callMethod.apply(window.fbq, arguments);
+        };
+        window.fbq.queue = window.fbq.queue || [];
+        window.fbq.loaded = window.fbq.loaded || false;
+        window.fbq.version = window.fbq.version || '2.0';
+        
+        // Override console.error to suppress Meta Pixel duplicate errors and fetch errors
+        const originalConsoleError = console.error;
+        console.error = function(...args) {
+          const message = args.join(' ');
+          if (message.includes('Duplicate Pixel ID') || 
+              message.includes('937229285084127') ||
+              message.includes('Fetch error from :') ||
+              message.includes('Fetch error from undefined') ||
+              message.includes('Fetch error from null') ||
+              message.includes('Fetch error from about:blank') ||
+              message.includes('Fetch error from chrome-extension:') ||
+              message.includes('physiotherapy/:194')) {
+            console.warn('Suppressed error:', message);
+            return;
+          }
+          return originalConsoleError.apply(console, args);
+        };
+      })();
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P26TH2MM');</script>
+    <!-- End Google Tag Manager -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Preload your custom fonts -->
+    <link
+      rel="preload"
+      href="/assets/fonts/Tajawal-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/Tajawal-Medium.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/assets/fonts/Tajawal-Bold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap"
+      />
+    </noscript>
+
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LMTQ4N6YVR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-LMTQ4N6YVR', {
+        // Enhanced configuration
+        send_page_view: true,
+        custom_map: {
+          'custom_parameter_1': 'gclid',
+          'custom_parameter_2': 'utm_source',
+          'custom_parameter_3': 'utm_medium',
+          'custom_parameter_4': 'utm_campaign'
+        }
+      });
+    </script>
+
+    <!-- Meta Pixel handled by Google Tag Manager -->
+
+    <!-- Enhanced tracking script -->
+    <script>
+      // GCLID and UTM parameter capture
+      (function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const gclid = urlParams.get('gclid') || urlParams.get('gclsrc');
+        const utmParams = {
+          utm_source: urlParams.get('utm_source'),
+          utm_medium: urlParams.get('utm_medium'),
+          utm_campaign: urlParams.get('utm_campaign'),
+          utm_term: urlParams.get('utm_term'),
+          utm_content: urlParams.get('utm_content')
+        };
+
+        // Store GCLID for form submissions
+        if (gclid) {
+          localStorage.setItem('gclid', gclid);
+          localStorage.setItem('gclid_timestamp', Date.now().toString());
+        }
+
+        // Enhanced page view tracking
+        gtag('event', 'page_view', {
+          page_title: document.title,
+          page_location: window.location.href,
+          page_path: window.location.pathname,
+          gclid: gclid,
+          ...utmParams
+        });
+
+        // Track UTM parameters
+        const hasUTM = Object.values(utmParams).some(value => value !== null);
+        if (hasUTM) {
+          gtag('event', 'utm_tracking', utmParams);
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P26TH2MM"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Meta Pixel noscript handled by Google Tag Manager -->
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Enhanced conversion tracking -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof url !== 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+          send_to: 'AW-16614033926/29hRCIHVqasbEIaUmPI9',
+          event_callback: callback,
+        });
+        return false;
+      }
+
+      // Enhanced conversion tracking for different actions
+      function trackConversion(conversionType) {
+        gtag('event', 'conversion', {
+          send_to: 'AW-16614033926/29hRCIHVqasbEIaUmPI9',
+          conversion_type: conversionType,
+          gclid: localStorage.getItem('gclid')
+        });
+      }
+
+      // Track form submissions
+      function trackFormSubmission(formData) {
+        gtag('event', 'form_submit', {
+          event_category: 'form_submission',
+          event_label: 'contact_form',
+          gclid: localStorage.getItem('gclid'),
+          form_data: formData
+        });
+        
+        // Meta Pixel Lead event via GTM
+        if (typeof dataLayer !== 'undefined') {
+          dataLayer.push({
+            event: 'fb_lead',
+            content_name: 'Physiotherapy Contact Form',
+            content_category: 'Healthcare',
+            gclid: localStorage.getItem('gclid')
+          });
+        }
+        
+        trackConversion('form_submission');
+      }
+
+      // Track phone calls
+      function trackPhoneCall(phoneNumber) {
+        gtag('event', 'phone_call', {
+          event_category: 'phone_call',
+          event_label: phoneNumber,
+          gclid: localStorage.getItem('gclid')
+        });
+        
+        // Meta Pixel Contact event via GTM
+        if (typeof dataLayer !== 'undefined') {
+          dataLayer.push({
+            event: 'fb_contact',
+            content_name: 'Phone Call',
+            content_category: 'Healthcare',
+            gclid: localStorage.getItem('gclid')
+          });
+        }
+        
+        trackConversion('phone_call');
+      }
+
+      // Track WhatsApp clicks
+      function trackWhatsAppClick(phoneNumber) {
+        gtag('event', 'whatsapp_click', {
+          event_category: 'whatsapp_click',
+          event_label: phoneNumber,
+          gclid: localStorage.getItem('gclid')
+        });
+        
+        // Meta Pixel Contact event via GTM
+        if (typeof dataLayer !== 'undefined') {
+          dataLayer.push({
+            event: 'fb_contact',
+            content_name: 'WhatsApp Click',
+            content_category: 'Healthcare',
+            gclid: localStorage.getItem('gclid')
+          });
+        }
+        
+        trackConversion('whatsapp_click');
+      }
+
+      // Track button clicks
+      function trackButtonClick(buttonName, buttonLocation) {
+        gtag('event', 'button_click', {
+          event_category: 'button_click',
+          event_label: buttonName,
+          button_location: buttonLocation,
+          gclid: localStorage.getItem('gclid')
+        });
+      }
+
+      // Track scroll depth
+      let maxScroll = 0;
+      const scrollThresholds = [25, 50, 75, 90, 100];
+      const trackedThresholds = new Set();
+
+      window.addEventListener('scroll', () => {
+        const scrollPercent = Math.round(
+          (window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100
+        );
+        
+        if (scrollPercent > maxScroll) {
+          maxScroll = scrollPercent;
+          
+          scrollThresholds.forEach(threshold => {
+            if (scrollPercent >= threshold && !trackedThresholds.has(threshold)) {
+              trackedThresholds.add(threshold);
+              
+              gtag('event', 'scroll', {
+                event_category: 'engagement',
+                event_label: `${threshold}%`,
+                value: threshold
+              });
+            }
+          });
+        }
+      });
+
+      // Track time on page
+      const startTime = Date.now();
+      window.addEventListener('beforeunload', () => {
+        const timeOnPage = Math.round((Date.now() - startTime) / 1000);
+        gtag('event', 'timing_complete', {
+          name: 'time_on_page',
+          value: timeOnPage
+        });
+      });
+
+      // Make functions globally available
+      window.trackConversion = trackConversion;
+      window.trackFormSubmission = trackFormSubmission;
+      window.trackPhoneCall = trackPhoneCall;
+      window.trackWhatsAppClick = trackWhatsAppClick;
+      window.trackButtonClick = trackButtonClick;
+    </script>
+  </body>
+</html>
