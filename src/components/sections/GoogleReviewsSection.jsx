@@ -19,7 +19,7 @@ export default function GoogleReviewsSection() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold">
-            What Our Customers Say tttt
+            What Our Customers Say ttt
           </h2>
           {/* <p className="text-muted-foreground mt-3">
             Real Google reviews from our patients
