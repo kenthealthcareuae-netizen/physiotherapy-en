@@ -6,7 +6,7 @@ export default function FloatingContactButtons() {
     <div className="fixed bottom-28 right-6 z-50 flex flex-col gap-4">
       {/* WhatsApp */}
       <motion.a
-        href="https://wa.me/971507547326"
+        href="https://wa.me/971507128370"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
@@ -19,7 +19,7 @@ export default function FloatingContactButtons() {
 
       {/* Call */}
       <motion.a
-        href="tel:+971507547326"
+        href="tel:+971507128370"
         aria-label="Call Us"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
