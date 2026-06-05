@@ -31,6 +31,12 @@ export default function GoogleReviewsSection() {
           data-elfsight-app-lazy
         />
       </div>
+      <style>.kPAwqy {
+    text-align: center;
+    display: none;
+}
+
+</style>
     </section>
   );
 }
