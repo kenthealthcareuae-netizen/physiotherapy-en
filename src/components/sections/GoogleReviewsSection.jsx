@@ -18,12 +18,12 @@ export default function GoogleReviewsSection() {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold">
+          {/* <h2 className="text-3xl md:text-4xl font-bold">
             What Our Patients Say
           </h2>
           <p className="text-muted-foreground mt-3">
             Real Google reviews from our patients
-          </p>
+          </p> */}
         </div>
 
         <div
