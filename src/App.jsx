@@ -5,7 +5,7 @@ import ServicesSection from '@/components/sections/Services';
 import GalleryWithFallback from '@/components/sections/GalleryWithFallback';
 import ConditionsSection from '@/components/sections/Conditions';
 import GoogleReviewsSection from '@/components/sections/GoogleReviewsSection';
-import TestimonialsSection from '@/components/sections/Testimonials';
+// import TestimonialsSection from '@/components/sections/Testimonials';
 import FaqSection from '@/components/sections/Faq';
 import ContactSection from '@/components/sections/ContactForm';
 import Footer from '@/components/sections/Footer';
