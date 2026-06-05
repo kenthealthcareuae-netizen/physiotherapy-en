@@ -16,7 +16,6 @@ import { ArrowRight, PhoneCall } from 'lucide-react';
 import { useConfig } from '@/contexts/ConfigContext';
 import WhatsAppButton from '@/components/ui/WhatsAppButton';
 import FreeSessionModal from '@/components/ui/FreeSessionModal';
-import UnifiedContactWidget from '@/components/ui/UnifiedContactWidget';
 
 // WhatsApp SVG
 const WhatsappSVG = props => (
