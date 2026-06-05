@@ -61,9 +61,10 @@ function AppContent() {
         <GalleryWithFallback tag="physiotherapy" />
         <ConditionsSection />
         <GoogleReviewsSection />
-        {/* <TestimonialsSection /> */}
+        
         <FaqSection />
         <ContactSection />
+        {/* <TestimonialsSection /> */}
       </main>
       <Footer />
       
