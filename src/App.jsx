@@ -11,6 +11,7 @@ import Footer from '@/components/sections/Footer';
 import CountdownTimer from '@/components/ui/CountdownTimer';
 import KentHealthcarePopup from '@/components/ui/KentHealthcarePopup';
 import UnifiedContactWidget from '@/components/ui/UnifiedContactWidget';
+import FloatingContactButtons from '@/components/ui/FloatingContactButtons';
 import { motion } from 'framer-motion';
 import { ConfigProvider, useConfig } from '@/contexts/ConfigContext';
 
@@ -69,6 +70,8 @@ function AppContent() {
       
       {/* Unified Contact Widget */}
       {/* <UnifiedContactWidget /> */}
+      {/* Floating Contact Buttons */}
+<FloatingContactButtons />
     </div>
   );
 }
