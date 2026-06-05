@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function FloatingContactButtons() {
   return (
-    <div className="fixed bottom-30 right-6 z-50 flex flex-col gap-4">
+    <div className="fixed bottom-28 right-6 z-50 flex flex-col gap-4">
       {/* WhatsApp */}
       <motion.a
         href="https://wa.me/971507547326"
